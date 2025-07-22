@@ -9,7 +9,14 @@
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
 }
-
+.btn{
+  background-color: #E02C6D;
+  border: none;
+  border-radius: 30px;
+  color: #ffffff;
+  padding: 10px 25px;
+  
+}
 /* main-styles */
 
 nav {
@@ -81,4 +88,43 @@ color: rgb(0, 0, 0);
   #checkbox:checked ~ .right-nav-links-wrapper .right-nav-links {
     left: 0;
   }
+  /* banner  */
+  .banner-container{
+  flex-direction: column-reverse;
+  gap: 50px;
 }
+.banner-left{
+  text-align: center;
+}
+}
+/* baanner */
+.banner-left h1{
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #3a3a3a;
+}
+.banner-left p{
+  font-weight: 600;
+  color: #3a3a3a;
+  margin: 16px 0; 
+}
+.banner-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 70px;
+  gap: 150px;
+  margin-bottom: 100px;
+  background-color: bisque;
+}
+.banner-right{
+  position: relative;
+  z-index: 10;
+}
+.banner-right svg{
+  position: absolute;
+  top: 0;
+  right: 0;
+z-index: -1;
+}
+
